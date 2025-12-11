@@ -1,5 +1,8 @@
 {
   "1.0.0": {
     "en": "initial build"
+  },
+  "1.0.1": {
+    "en": "fixed temperature, updated images."
   }
 }
