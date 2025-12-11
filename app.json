@@ -13,6 +13,9 @@
     "en": "Stelpro Z-Wave devices support for Homey."
   },
   "category": "climate",
+  "author": {
+    "name": "Simon"
+  },
   "permissions": [],
   "images": {
     "large": "assets/images/large.jpg",
@@ -30,6 +33,15 @@
         "target_temperature",
         "thermostat_mode"
       ],
+      "capabilitiesOptions": {
+        "thermostat_mode": {
+          "values": [
+            "off",
+            "heat",
+            "eco"
+          ]
+        }
+      },
       "zwave": {
         "manufacturerId": 569,
         "productTypeId": 1,

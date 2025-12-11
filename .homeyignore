@@ -1,0 +1,10 @@
+.git
+.gitignore
+.github
+memory-bank
+node_modules
+package-lock.json
+*.log
+.DS_Store
+.idea
+.vscode

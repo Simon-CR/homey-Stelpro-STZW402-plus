@@ -1,15 +1,16 @@
 # Active Context
 
 ## Current Focus
-Finalizing the initial driver implementation.
+Preparing the app for release (pending user testing).
 
 ## Recent Changes
-- Scaffolding complete.
-- `app.json`, `package.json`, `app.js` created.
-- Driver files `device.js`, `driver.js` created.
-- Dependencies installed.
+- Updated `app.json` with author and capability options.
+- Updated `package.json` with metadata and scripts.
+- Updated `device.js` with capability mapping for `eco` mode.
+- Added `.eslintrc.json` for code quality.
+- Verified `README.md`.
 
 ## Next Steps
-1.  Add placeholder images/icons.
-2.  Review code for any potential issues.
-3.  (User Action) Test on real device.
+1.  (User Action) Test on real device when it arrives.
+2.  (User Action) Replace placeholder images in `assets/` and `drivers/*/assets/`.
+3.  (User Action) Publish using `homey app publish`.

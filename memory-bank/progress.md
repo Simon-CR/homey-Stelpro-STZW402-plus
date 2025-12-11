@@ -1,18 +1,20 @@
-# Progress
+# Progress (Updated: 2025-12-11)
 
-## Status
-- **Project Status:** In Development
-- **Current Version:** 1.0.0
+## Done
 
-## Todo
-- [x] Initialize project structure
-- [x] Create app.json
-- [x] Create package.json
-- [x] Create app.js
-- [x] Create driver structure (device.js, driver.js)
-- [ ] Add device images (icons)
-- [ ] Test with actual device (if available) or mock
-- [ ] Publish to Homey App Store
+- Initialize project structure
+- Create app.json
+- Create package.json
+- Create app.js
+- Create driver structure
+- Refine driver based on testing
 
-## Known Issues
-- None
+## Doing
+
+- Prepare for release
+
+## Next
+
+- User testing with real device
+- Replace placeholder images
+- Publish to Homey App Store

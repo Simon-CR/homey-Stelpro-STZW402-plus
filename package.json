@@ -1,11 +1,18 @@
 {
   "name": "com.stelpro",
   "version": "1.0.0",
+  "description": "Stelpro Z-Wave devices support for Homey.",
   "main": "app.js",
+  "author": "Simon <simon@example.com>",
+  "license": "MIT",
   "dependencies": {
     "homey-zwavedriver": "^2.2.1"
   },
   "devDependencies": {
     "homey": "^3.10.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ."
   }
 }
