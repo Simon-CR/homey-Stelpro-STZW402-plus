@@ -13,6 +13,7 @@
     "en": "Stelpro Z-Wave devices support for Homey."
   },
   "category": "climate",
+  "brandColor": "#00549F",
   "author": {
     "name": "Simon Cloutier",
     "email": "scr_homey@cloutier.one"
@@ -29,6 +30,10 @@
         "en": "Stelpro Ki Thermostat (STZW402+)"
       },
       "class": "thermostat",
+      "images": {
+        "large": "drivers/stelpro_stzw402_plus/assets/images/large.jpg",
+        "small": "drivers/stelpro_stzw402_plus/assets/images/small.jpg"
+      },
       "capabilities": [
         "measure_temperature",
         "target_temperature",
@@ -53,12 +58,7 @@
           }
         },
         "associationGroups": [
-          {
-            "id": 1,
-            "label": {
-              "en": "Lifeline"
-            }
-          }
+          1
         ]
       }
     }
