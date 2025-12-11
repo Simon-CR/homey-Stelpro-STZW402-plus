@@ -23,6 +23,16 @@
     "large": "assets/images/large.jpg",
     "small": "assets/images/small.jpg"
   },
+  "capabilities": {
+    "stelpro_thermostat_state": {
+      "type": "string",
+      "title": {
+        "en": "State"
+      },
+      "getable": true,
+      "setable": false
+    }
+  },
   "drivers": [
     {
       "id": "stelpro_stzw402_plus",
@@ -37,7 +47,8 @@
       "capabilities": [
         "measure_temperature",
         "target_temperature",
-        "thermostat_mode"
+        "thermostat_mode",
+        "stelpro_thermostat_state"
       ],
       "capabilitiesOptions": {
         "thermostat_mode": {
@@ -46,6 +57,11 @@
             "heat",
             "eco"
           ]
+        },
+        "stelpro_thermostat_state": {
+          "title": {
+            "en": "State"
+          }
         }
       },
       "zwave": {
@@ -62,5 +78,27 @@
         ]
       }
     }
-  ]
+  ],
+  "flow": {
+    "actions": [
+      {
+        "id": "set_outside_temperature",
+        "title": {
+          "en": "Set outside temperature"
+        },
+        "titleFormatted": {
+          "en": "Set outside temperature to [[temperature]]°C"
+        },
+        "args": [
+          {
+            "name": "temperature",
+            "type": "number",
+            "title": {
+              "en": "Temperature (°C)"
+            }
+          }
+        ]
+      }
+    ]
+  }
 }

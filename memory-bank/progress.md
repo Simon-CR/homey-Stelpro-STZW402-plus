@@ -8,13 +8,16 @@
 - Create app.js
 - Create driver structure
 - Refine driver based on testing
+- Implement "Outside Temperature" flow
+- Implement "Operating State" capability
+- Generate production assets from product photo
+- Validate app for publishing
 
 ## Doing
 
-- Prepare for release
+- Final commit
 
 ## Next
 
 - User testing with real device
-- Replace placeholder images
 - Publish to Homey App Store
