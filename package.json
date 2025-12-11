@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Stelpro Z-Wave devices support for Homey.",
   "main": "app.js",
-  "author": "Simon <simon@example.com>",
+  "author": "Simon Cloutier <scr_homey@cloutier.one>",
   "license": "MIT",
   "dependencies": {
     "homey-zwavedriver": "^2.2.1"
