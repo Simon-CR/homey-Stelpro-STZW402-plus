@@ -1,0 +1,11 @@
+{
+  "name": "com.stelpro",
+  "version": "1.0.0",
+  "main": "app.js",
+  "dependencies": {
+    "homey-zwavedriver": "^2.2.1"
+  },
+  "devDependencies": {
+    "homey": "^3.10.0"
+  }
+}

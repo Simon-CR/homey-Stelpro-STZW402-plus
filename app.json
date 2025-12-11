@@ -1,0 +1,53 @@
+{
+  "id": "com.stelpro",
+  "name": {
+    "en": "Stelpro"
+  },
+  "version": "1.0.0",
+  "compatibility": ">=10.0.0",
+  "sdk": 3,
+  "platforms": [
+    "local"
+  ],
+  "description": {
+    "en": "Stelpro Z-Wave devices support for Homey."
+  },
+  "category": "climate",
+  "permissions": [],
+  "images": {
+    "large": "assets/images/large.jpg",
+    "small": "assets/images/small.jpg"
+  },
+  "drivers": [
+    {
+      "id": "stelpro_stzw402_plus",
+      "name": {
+        "en": "Stelpro Ki Thermostat (STZW402+)"
+      },
+      "class": "thermostat",
+      "capabilities": [
+        "measure_temperature",
+        "target_temperature",
+        "thermostat_mode"
+      ],
+      "zwave": {
+        "manufacturerId": 569,
+        "productTypeId": 1,
+        "productId": 1,
+        "learnmode": {
+          "instruction": {
+            "en": "Press the Up and Down buttons simultaneously for 3 seconds to enter inclusion mode."
+          }
+        },
+        "associationGroups": [
+          {
+            "id": 1,
+            "label": {
+              "en": "Lifeline"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
